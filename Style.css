@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.full-web{
+    font-family: 'Inria Serif', serif;
+}
+
+.b-g-1{
+    background-color: #F0F2F5;
+}
+
+.b-g-1 h5{      
+    display: inline-block;
+    font-size: 26px;
+    color: #5B6C8F;
+}
+
+.b-g-1 i{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 46px;
+    font-size: 31px;
+    color: #5B6C8F;
+}
+
+.b-g-1 p{
+    color: #103178;
+    position: relative;
+    left: 56px;
+    top: 9px;
+    font-size: 28px;
+}
+
+.b-g-1 h1{
+    margin-top: 62px;
+    color: #103178;
+    position: relative;
+    left: 56px;
+    font-weight: 707px;
+}
+
+.b-g-1 img{
+    height: 445px;
+    position: relative;
+    left: -55px;
+}
+
+.b-g-1 a{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 215px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FFC800;
+    padding: 9px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-radius: 20px;
+}
+
+.b-g-1 a::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f105";
+    position: relative;
+    font-size: 20px;
+    color: #FB704B;
+    top: 3px;
+    margin-left: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.b-g-1 a:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+.b-g-1 a:hover{
+    background-color: #FFFFFF;
+    color: #000;
+    transition: .5s;
+}
+
+.dolar{
+    display: inline-block;
+    background: #FFC800;
+    height: 122px;
+    text-align: center;
+    border-radius: 61%;
+    position: absolute;
+    width: 130px;
+    top: 15px;
+    left: 1034px;
+}
+
+.dolar h4{
+    position: relative;
+    top: 8px;
+}
+
+.dolar i{
+    color: #2ecc71;
+    margin-right: 7px;
+}
+
+.dolar h1{
+    position: relative;
+    top: -84px;
+    left: -27px;
+    font-size: 37px;
+}
+
+.all img{
+    height: 250px;
+    margin-top: 49px;
+}
+
+.img-1{
+    text-align: center;
+    overflow: hidden;
+    height: 301px;
+    width: 381px;
+}
+
+.all img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.write-1{
+    position: relative;
+    left: 48px;
+    bottom: 223px;
+    color: #fff;
+    display: inline-block;
+}
+
+.write-1 .a-a-a-1{
+    background: #13A05D;
+    position: relative;
+    left: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 99px;
+    border-radius: 20px;
+}
+
+
+.write-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.write-1 .a-a-a-2{
+    background: #103178;
+    padding: 6px;
+    top: 30px;
+    position: relative;
+    left: 39px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 20px;
+    border: 1px #103178 solid;
+}
+
+#img-2{
+    height: 261px;
+    position: relative;
+    bottom: 3px;
+    width: 350px;
+}
+
+.a-a-a-3{
+    background: #0d6efd;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: -1px;
+}
+
+.write-1 h2{
+    color: #FBCC00;
+    font-size: 63px;
+    position: relative;
+    right: 21px;
+}
+
+.a-a-a-3:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+    border: 1px #103178 solid;
+}
+
+.a-a-a-2:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.pic{
+    padding-bottom: 120px;
+}
+.pic h1{
+    font-size: 55px;
+    font-weight: 1000;
+    color: #103178;
+    margin-top: 213px;
+    margin-left: 110px;
+}
+
+.pic p{
+    margin-left: 107px;
+    margin-top: 55px;
+    font-size: 23px;
+    color: #103189;
+}
+
+.pic a{
+    text-decoration: none;
+    color: #fff;
+    background: #ffc800;
+    padding: 15px;
+    margin-left: 228px;
+    position: relative;
+    top: 50px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid #ffc800;
+}
+
+.pic a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 1s;
+}
+
+.pic img{
+    height: 580px;
+    margin-top: 102px;
+    width: 555px;
+}
+
+.sm{
+    background: url(./Needed/6,7.jpg) center center no-repeat;
+    background-size: cover; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.sm i{
+    color: #ecf0f1;
+    font-size: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.sm::before{
+    content: "";
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    top: 0px;
+    right: 1px;
+    z-index: 5;
+}
+
+.sm p{
+    color: #ffffff;
+    font-size: 30px;
+    z-index: 9;
+}
+
+.sm .a{
+    background: #13a05d;
+    border: none;
+    position: relative;
+    left: 150px; 
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #13a05d;
+    z-index: 9;
+}
+
+.sm .a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 1s;
+}
+
+.main-sm{
+    background: #f0f2f5;
+    z-index: 999;
+    height: 182px;
+    position: relative;
+    padding-top: 47px;
+} 
+
+.img-bb-b{
+    overflow: hidden;
+}
+
+.card-1 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card-1{
+    overflow: hidden;
+}
+
+.cart{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.email strong{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    color: #103178;
+    margin-bottom: 50px;
+}
+
+.email input{
+    border: none;
+    font-size: 27px;
+    padding: 11px;
+    padding-left: 23px;
+    padding-right: 10px;
+    border-radius: 40px;
+}
+
+.email a{
+    text-decoration: none;
+    color: #fff;
+    background: #ffc800;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: 2px #ffc800 solid;
+}
+
+.email{
+    background-color: #f0f2f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.email a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 1s;
+}
+
+.col-3 {
+    background-color: #fff;
+    height: 249px;
+    width: 268px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.div-1 {
+    position: relative;
+    top: 15px;
+}
+
+.col-3 p{
+    color: #303178;
+}
+
+.col-3 h3{
+    color: #303178;
+}
+
+.map a:hover{
+    background-color: #1358bb;
+    transition: 1s;
+    font-weight: 700;
+    color: #fff;
+}
+
+.jobi-jobi{
+    text-align: right;
+    position: relative;
+    right: 60px;
+}
+
+.border {
+    height: 10px;
+    width: 1325px;
+    background: #103178;
+}
+
+.img-gg-g-div{
+    position: relative;
+    display: inline-block;
+    left: 130px;
+}
+
+.img-gg-g-div img{
+    margin-right: 12px;
+} 
